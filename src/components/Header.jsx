@@ -11,9 +11,9 @@ import Search from './Search'
 const Header = () => {
     return (
         <div className='flex flex-col gap-2 bg-[#fff]'>
-            <div className='flex justify-between items-center w-full py-2 px-3 border-b border-grey-100'>
+            <div className='flex flex-wrap justify-between items-center w-full py-2 px-3 border-b border-grey-100'>
                 <Search />
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 lg:w-full lg:pt-3'>
                     <div className='flex items-center gap-6 border-r pr-6 border-[#B7C6DE]'>
                         <img src={helpIcon} alt="" />
                         <img src={uploadIcon} alt="" />
@@ -35,7 +35,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex items-center justify-between pb-2 px-3'>
+            <div className='flex items-center flex-wrap gap-y-2 justify-between pb-2 px-3'>
                 <div className='flex items-center gap-2 text-12'>
                     <div className='flex items-center gap-2 pr-2 #1F2937'>
                         <img src={Home} alt="" />
