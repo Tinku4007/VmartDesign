@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     return (
         <div className='flex'>
             <Sidebar />
-            <div className='w-[96%]'>
+            <div className='w-[96%] md:w-[calc(100%-60px)]'>
                 <div className='w-full'>
                     <Header />
                 </div>

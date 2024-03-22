@@ -10,7 +10,7 @@ import Frame4 from '../assets/Frame (4).svg'
 
 const Filter = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex flex-wrap gap-y-2 justify-between'>
             <div className='flex gap-4'>
                 <div className='flex items-center gap-2 border border-[#DAE4EE] py-1 pr-1 pl-2'>
                     <img src={searchIcon} alt="" />

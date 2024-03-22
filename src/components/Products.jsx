@@ -18,7 +18,7 @@ const Products = () => {
       <div className='flex justify-between flex-wrap gap-4'>
         {
           ProductData.map((item, i) => (
-            <div key={i} className='w-[18.7%] box-product flex flex-col '>
+            <div key={i} className='w-[18.7%] sm:w-full md:w-[48%] lg:w-[22%] box-product flex flex-col '>
               <div className='relative'>
                 <img className='w-full' src={BrandImg} alt="" />
                 <span className='absolute w-5 h-5 bg-[#fff] top-2 left-2 border-2 border-[#C7D3DF]'></span>
